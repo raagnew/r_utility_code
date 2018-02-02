@@ -1,12 +1,12 @@
 # MARKETING OPTIMIZATION R-SCRIPT
-# Bob Agnew, raagnew@comcast.net, http://home.comcast.net/~raagnew
+# Bob Agnew, raagnew1@gmail.com, http://www.raagnew.com
 # The algorithm imbedded in this script optimizes the assignment of offers to
 # prospects, subject to stipulated offer quantity constraints and the limit of
 # at most one offer per prospect.  Remarkably, this demo problem, with a million
 # prospects and three offers, solves in about a minute on my home PC.  Previously,
 # I solved it using SAS PROC NLP on a big server and the time required was much
 # greater. Ref:
-# http://home.comcast.net/~raagnew/Downloads/Dual_Solution_Marketing_Optimization.pdf
+# https://www.raagnew.com/uploads/5/7/1/7/57174385/dual_solution_marketing_optimization.pdf
 # This script can be adapted for a different number of offers and alternative
 # equality or inequality constraints, as long as they can be linearized, although
 # the dual must be formulated for solution.  Inequality constraints would require
